@@ -13,7 +13,7 @@ class BasicTestCase(unittest.TestCase):
     def tearDown(self):
         db.session.remove()
         db.drop_all()
-        self.app_context.app()
+        self.app_context.pop()
 
     def test_app_exists(self):
         self.assertFalse(current_app is None)

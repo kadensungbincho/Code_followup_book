@@ -26,6 +26,14 @@ type="image/x-icon">
                 <li><a href="/">Home</a></li>
             </ul> 
        </div>
+       <div class="navbar-collapse collapse">
+           <ul class="nav navbar-nav navbar-right">
+               {% if currnet_user.is_authenticated() %}
+               <li><a href="{{ url_for('auth.logout') }}">Sign Out</a></li>
+               {% else %}
+               <li><a href="{{ url_for('auth.login') }}">Sign In</a></li>
+           </ul>
+       </div>
    </div> 
 </div> 
 {% endblock %}
