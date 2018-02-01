@@ -1,6 +1,8 @@
 from flask_httpauth import HTTPBasicAuth
 
-from .errors import forbidden_error
+from . import api
+from .errors import forbidden
+
 
 auth = HTTPBasicAuth()
 
@@ -27,10 +29,10 @@ def auth_error():
     return unauthorized('Invalid credentials')
 
 
-@api.route('/posts/')
-@auth.login_required
-def get_posts()
-    pass
+# @api.route('/posts/')
+# @auth.login_required
+# def get_posts():
+# :pass
 
 
 @api.before_request
