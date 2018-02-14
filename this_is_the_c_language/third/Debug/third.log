@@ -1,0 +1,3 @@
+﻿  variable.c
+c:\users\lenovo\workspace\git\kaden\code_followup_book\this_is_the_c_language\third\variable.c(70): warning C4013: 'strcpy' undefined; assuming extern returning int
+  third.vcxproj -> C:\Users\lenovo\workspace\git\kaden\code_followup_book\this_is_the_c_language\third\Debug\third.exe
