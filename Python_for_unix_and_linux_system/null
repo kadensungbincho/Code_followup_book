@@ -1,0 +1,7 @@
+PING naver.com (125.209.222.141): 56 data bytes
+
+--- naver.com ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+100.0% packet loss
+ed, 1 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 80.925/80.925/80.925/0.000 ms
