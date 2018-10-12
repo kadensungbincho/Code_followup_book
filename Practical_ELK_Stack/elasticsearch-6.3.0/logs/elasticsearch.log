@@ -1,0 +1,60 @@
+[2018-06-14T23:24:57,184][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-06-14T23:24:57,289][INFO ][o.e.e.NodeEnvironment    ] [NQJHuAO] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [80.3gb], net total_space [233.5gb], types [apfs]
+[2018-06-14T23:24:57,289][INFO ][o.e.e.NodeEnvironment    ] [NQJHuAO] heap size [990.7mb], compressed ordinary object pointers [true]
+[2018-06-14T23:24:57,293][INFO ][o.e.n.Node               ] [NQJHuAO] node name derived from node ID [NQJHuAOkT9u3rhZJt1QLrg]; set [node.name] to override
+[2018-06-14T23:24:57,294][INFO ][o.e.n.Node               ] [NQJHuAO] version[6.3.0], pid[1072], build[default/tar/424e937/2018-06-11T23:38:03.357887Z], OS[Mac OS X/10.13.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_171/25.171-b11]
+[2018-06-14T23:24:57,294][INFO ][o.e.n.Node               ] [NQJHuAO] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/yj/j6456qr57q5fkk3vhyjk99f00000gn/T/elasticsearch.A6CvVm7x, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/Users/kadencho/git/kadensungbincho/Code_followup_book/Practical_ELK_Stack/elasticsearch-6.3.0, -Des.path.conf=/Users/kadencho/git/kadensungbincho/Code_followup_book/Practical_ELK_Stack/elasticsearch-6.3.0/config, -Des.distribution.flavor=default, -Des.distribution.type=tar]
+[2018-06-14T23:25:00,345][INFO ][o.e.p.PluginsService     ] [NQJHuAO] loaded module [aggs-matrix-stats]
+[2018-06-14T23:25:00,345][INFO ][o.e.p.PluginsService     ] [NQJHuAO] loaded module [analysis-common]
+[2018-06-14T23:25:00,345][INFO ][o.e.p.PluginsService     ] [NQJHuAO] loaded module [ingest-common]
+[2018-06-14T23:25:00,345][INFO ][o.e.p.PluginsService     ] [NQJHuAO] loaded module [lang-expression]
+[2018-06-14T23:25:00,346][INFO ][o.e.p.PluginsService     ] [NQJHuAO] loaded module [lang-mustache]
+[2018-06-14T23:25:00,346][INFO ][o.e.p.PluginsService     ] [NQJHuAO] loaded module [lang-painless]
+[2018-06-14T23:25:00,346][INFO ][o.e.p.PluginsService     ] [NQJHuAO] loaded module [mapper-extras]
+[2018-06-14T23:25:00,346][INFO ][o.e.p.PluginsService     ] [NQJHuAO] loaded module [parent-join]
+[2018-06-14T23:25:00,346][INFO ][o.e.p.PluginsService     ] [NQJHuAO] loaded module [percolator]
+[2018-06-14T23:25:00,347][INFO ][o.e.p.PluginsService     ] [NQJHuAO] loaded module [rank-eval]
+[2018-06-14T23:25:00,347][INFO ][o.e.p.PluginsService     ] [NQJHuAO] loaded module [reindex]
+[2018-06-14T23:25:00,347][INFO ][o.e.p.PluginsService     ] [NQJHuAO] loaded module [repository-url]
+[2018-06-14T23:25:00,347][INFO ][o.e.p.PluginsService     ] [NQJHuAO] loaded module [transport-netty4]
+[2018-06-14T23:25:00,347][INFO ][o.e.p.PluginsService     ] [NQJHuAO] loaded module [tribe]
+[2018-06-14T23:25:00,348][INFO ][o.e.p.PluginsService     ] [NQJHuAO] loaded module [x-pack-core]
+[2018-06-14T23:25:00,348][INFO ][o.e.p.PluginsService     ] [NQJHuAO] loaded module [x-pack-deprecation]
+[2018-06-14T23:25:00,348][INFO ][o.e.p.PluginsService     ] [NQJHuAO] loaded module [x-pack-graph]
+[2018-06-14T23:25:00,348][INFO ][o.e.p.PluginsService     ] [NQJHuAO] loaded module [x-pack-logstash]
+[2018-06-14T23:25:00,348][INFO ][o.e.p.PluginsService     ] [NQJHuAO] loaded module [x-pack-ml]
+[2018-06-14T23:25:00,348][INFO ][o.e.p.PluginsService     ] [NQJHuAO] loaded module [x-pack-monitoring]
+[2018-06-14T23:25:00,348][INFO ][o.e.p.PluginsService     ] [NQJHuAO] loaded module [x-pack-rollup]
+[2018-06-14T23:25:00,349][INFO ][o.e.p.PluginsService     ] [NQJHuAO] loaded module [x-pack-security]
+[2018-06-14T23:25:00,349][INFO ][o.e.p.PluginsService     ] [NQJHuAO] loaded module [x-pack-sql]
+[2018-06-14T23:25:00,349][INFO ][o.e.p.PluginsService     ] [NQJHuAO] loaded module [x-pack-upgrade]
+[2018-06-14T23:25:00,349][INFO ][o.e.p.PluginsService     ] [NQJHuAO] loaded module [x-pack-watcher]
+[2018-06-14T23:25:00,350][INFO ][o.e.p.PluginsService     ] [NQJHuAO] no plugins loaded
+[2018-06-14T23:25:04,754][INFO ][o.e.x.s.a.s.FileRolesStore] [NQJHuAO] parsed [0] roles from file [/Users/kadencho/git/kadensungbincho/Code_followup_book/Practical_ELK_Stack/elasticsearch-6.3.0/config/roles.yml]
+[2018-06-14T23:25:05,473][INFO ][o.e.x.m.j.p.l.CppLogMessageHandler] [controller/1090] [Main.cc@109] controller (64 bit): Version 6.3.0 (Build 0f0a34c67965d7) Copyright (c) 2018 Elasticsearch BV
+[2018-06-14T23:25:05,925][DEBUG][o.e.a.ActionModule       ] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2018-06-14T23:25:06,234][INFO ][o.e.d.DiscoveryModule    ] [NQJHuAO] using discovery type [zen]
+[2018-06-14T23:25:07,394][INFO ][o.e.n.Node               ] [NQJHuAO] initialized
+[2018-06-14T23:25:07,395][INFO ][o.e.n.Node               ] [NQJHuAO] starting ...
+[2018-06-14T23:25:07,644][INFO ][o.e.t.TransportService   ] [NQJHuAO] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-06-14T23:25:10,761][INFO ][o.e.c.s.MasterService    ] [NQJHuAO] zen-disco-elected-as-master ([0] nodes joined)[, ], reason: new_master {NQJHuAO}{NQJHuAOkT9u3rhZJt1QLrg}{TgVU3OygQsma189t9YDvJA}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8589934592, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}
+[2018-06-14T23:25:10,765][INFO ][o.e.c.s.ClusterApplierService] [NQJHuAO] new_master {NQJHuAO}{NQJHuAOkT9u3rhZJt1QLrg}{TgVU3OygQsma189t9YDvJA}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8589934592, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}, reason: apply cluster state (from master [master {NQJHuAO}{NQJHuAOkT9u3rhZJt1QLrg}{TgVU3OygQsma189t9YDvJA}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8589934592, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)[, ]]])
+[2018-06-14T23:25:10,787][INFO ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [NQJHuAO] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-06-14T23:25:10,788][INFO ][o.e.n.Node               ] [NQJHuAO] started
+[2018-06-14T23:25:10,807][WARN ][o.e.x.s.a.s.m.NativeRoleMappingStore] [NQJHuAO] Failed to clear cache for realms [[]]
+[2018-06-14T23:25:10,880][INFO ][o.e.g.GatewayService     ] [NQJHuAO] recovered [0] indices into cluster_state
+[2018-06-14T23:25:11,072][INFO ][o.e.c.m.MetaDataIndexTemplateService] [NQJHuAO] adding template [.watches] for index patterns [.watches*]
+[2018-06-14T23:25:11,139][INFO ][o.e.c.m.MetaDataIndexTemplateService] [NQJHuAO] adding template [.watch-history-7] for index patterns [.watcher-history-7*]
+[2018-06-14T23:25:11,168][INFO ][o.e.c.m.MetaDataIndexTemplateService] [NQJHuAO] adding template [.triggered_watches] for index patterns [.triggered_watches*]
+[2018-06-14T23:25:11,214][INFO ][o.e.c.m.MetaDataIndexTemplateService] [NQJHuAO] adding template [.monitoring-logstash] for index patterns [.monitoring-logstash-6-*]
+[2018-06-14T23:25:11,261][INFO ][o.e.c.m.MetaDataIndexTemplateService] [NQJHuAO] adding template [.monitoring-es] for index patterns [.monitoring-es-6-*]
+[2018-06-14T23:25:11,298][INFO ][o.e.c.m.MetaDataIndexTemplateService] [NQJHuAO] adding template [.monitoring-beats] for index patterns [.monitoring-beats-6-*]
+[2018-06-14T23:25:11,332][INFO ][o.e.c.m.MetaDataIndexTemplateService] [NQJHuAO] adding template [.monitoring-alerts] for index patterns [.monitoring-alerts-6]
+[2018-06-14T23:25:11,364][INFO ][o.e.c.m.MetaDataIndexTemplateService] [NQJHuAO] adding template [.monitoring-kibana] for index patterns [.monitoring-kibana-6-*]
+[2018-06-14T23:25:11,419][INFO ][o.e.l.LicenseService     ] [NQJHuAO] license [31462504-236d-46da-8157-89537d1797bb] mode [basic] - valid
+[2018-06-14T23:51:17,789][INFO ][o.e.x.m.j.p.NativeController] Native controller process has stopped - no new native processes can be started
+[2018-06-14T23:51:17,792][INFO ][o.e.n.Node               ] [NQJHuAO] stopping ...
+[2018-06-14T23:51:17,810][INFO ][o.e.x.w.WatcherService   ] [NQJHuAO] stopping watch service, reason [shutdown initiated]
+[2018-06-14T23:51:18,222][INFO ][o.e.n.Node               ] [NQJHuAO] stopped
+[2018-06-14T23:51:18,222][INFO ][o.e.n.Node               ] [NQJHuAO] closing ...
+[2018-06-14T23:51:18,232][INFO ][o.e.n.Node               ] [NQJHuAO] closed
