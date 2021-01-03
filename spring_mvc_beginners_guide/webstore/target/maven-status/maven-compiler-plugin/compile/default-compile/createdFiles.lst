@@ -1,0 +1,5 @@
+com/packt/webstore/domain/Product.class
+com/packt/webstore/config/WebApplicationContextConfig.class
+com/packt/webstore/controller/ProductController.class
+com/packt/webstore/config/DispatcherServletInitializer.class
+com/packt/webstore/controller/HomeController.class
