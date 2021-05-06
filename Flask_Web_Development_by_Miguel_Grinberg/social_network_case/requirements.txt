@@ -76,7 +76,7 @@ filterpy==1.0.0
 Fiona==1.7.9.post1
 Flask==0.12.2
 Flask-Bcrypt==0.7.1
-Flask-Cors==3.0.3
+Flask-Cors==3.0.9
 Flask-HTTPAuth==3.2.3
 Flask-Limiter==1.0.0
 Flask-Login==0.4.0
