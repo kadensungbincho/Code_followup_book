@@ -195,7 +195,7 @@ pep8==1.7.0
 pexpect==4.2.1
 pgmpy==0.1.6
 pickleshare==0.7.4
-Pillow==3.4.2
+Pillow==8.2.0
 pkginfo==1.4.1
 ply==3.10
 prompt-toolkit==1.0.15
