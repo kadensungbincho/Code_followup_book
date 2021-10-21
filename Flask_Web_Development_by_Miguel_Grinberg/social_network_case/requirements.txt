@@ -14,7 +14,7 @@ attrs==17.2.0
 audioread==2.1.4
 Automat==0.6.0
 awscli==1.11.173
-Babel==2.5.0
+Babel==2.9.1
 backports.shutil-get-terminal-size==1.0.0
 bash-kernel==0.7.1
 bcolz==0.12.1
