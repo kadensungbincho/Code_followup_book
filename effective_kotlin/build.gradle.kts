@@ -15,6 +15,7 @@ repositories {
 dependencies {
     implementation("org.springframework:spring-core:5.3.14")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.0.0")
+    implementation("org.jetbrains.kotlin:kotlin-reflect")
 
     testImplementation(kotlin("test"))
 }
