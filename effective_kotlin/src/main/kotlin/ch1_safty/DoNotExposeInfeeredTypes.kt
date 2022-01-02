@@ -1,4 +1,4 @@
-package item4
+package ch1_safty
 
 open class Animal
 class Zebra: Animal()

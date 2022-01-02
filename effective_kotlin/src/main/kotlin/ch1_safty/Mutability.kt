@@ -1,4 +1,4 @@
-package item1
+package ch1_safty
 
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.delay

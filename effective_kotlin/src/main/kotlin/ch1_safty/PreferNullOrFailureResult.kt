@@ -1,4 +1,4 @@
-package item7
+package ch1_safty
 
 /*
     - Return a null or a sealed class indicating failure
