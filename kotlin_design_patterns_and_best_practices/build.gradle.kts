@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.5.10"
+    kotlin("jvm") version "1.6.10"
     application
 }
 
@@ -13,11 +13,6 @@ repositories {
 }
 
 dependencies {
-    implementation("org.springframework:spring-core:5.3.14")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.0.0")
-    implementation("org.jetbrains.kotlin:kotlin-reflect")
-    implementation("org.apache.commons:commons-lang3:3.11")
-
     testImplementation(kotlin("test"))
 }
 
@@ -26,7 +21,7 @@ tasks.test {
 }
 
 tasks.withType<KotlinCompile> {
-    kotlinOptions.jvmTarget = "1.8"
+    kotlinOptions.jvmTarget = "11"
 }
 
 application {
